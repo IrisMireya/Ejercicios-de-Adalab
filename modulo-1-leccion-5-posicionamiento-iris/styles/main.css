@@ -1,0 +1,24 @@
+.box1{
+    height: 100px;
+    margin: 50px;
+    padding: 30px;
+    background-color: aquamarine;
+    position: relative; right: 100px;
+    top: 50px;
+}
+.box2{
+    height: 300px;
+    margin: 40px;
+    padding: 30px;
+    background-color: lightblue;
+    position: relative; left: 150;
+    bottom: 320px;
+}
+.box3{
+    height: 300px;
+    margin: 40px;
+    padding: 30px;
+    background-color: pink;
+    position: relative; right: 180px;
+    bottom: 240px;
+}

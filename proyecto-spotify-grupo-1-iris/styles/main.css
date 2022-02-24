@@ -1,0 +1,24 @@
+.header
+{
+    background-color: black;
+
+}
+.logo{
+    width: 150px;
+}
+
+.nav {
+
+    color:white;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+}
+.menu {
+    list-style: none;
+    
+}
+.menu--item
+{
+    display: inline;
+}

@@ -1,0 +1,38 @@
+:root {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    border: solid 1px black;
+    justify-content: space-between;
+    color: red;
+
+}
+
+.box1 , box2 , box3 {
+    width: var(- -size);
+    height: var(- -size);
+    background-color: lightcoral;
+}
+
+.box1{
+
+    width: 75%;
+    background-color: lightcoral;
+}
+.box2{
+
+    width: 50%;
+    background-color: lightblue;
+}
+
+.box3{
+    width: 100%;
+    background-color: lightgreen;
+
+}
+

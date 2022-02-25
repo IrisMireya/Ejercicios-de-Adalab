@@ -1,6 +1,11 @@
 .header
 {
     background-color: black;
+    position: sticky;
+    width: 100%;
+    padding: 20px;
+    top:0;
+    z-index: 999;
 
 }
 .logo{
@@ -21,4 +26,14 @@
 .menu--item
 {
     display: inline;
+}
+
+.container{
+background-color: blue;
+width=" 320" height=" 421"
+}
+.title, .title2, .bottom, .terms{
+
+    color: white;
+    font-family: sans-serif;
 }

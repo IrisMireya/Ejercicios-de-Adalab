@@ -1,0 +1,73 @@
+.face {
+
+    font-size: 48px;
+    border: solid 5px darkcyan;
+    color: darkcyan;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: scale (2) translate (40px,30px); 
+    rotate: 90deg;
+    /* transform: translate(40px);*/
+
+}
+
+.mama{
+
+    border: solid 3px red;
+}
+
+.hija{
+    position: absolute;
+    border: solid 3px blue;
+    bottom: 0px;
+    right:0;
+
+    /* width: 60%;
+    height: 40%;
+    left: 20%;
+    background-color: white;*/
+}
+
+.container{
+
+    position: relative;
+    border: ridge 10px;
+}
+
+
+.photo {
+    width: 200px;
+    /* object-fit */
+}
+
+.caption {
+    position: absolute;
+    bottom: 15px;
+    border: solid 2px black
+    left: 50%;
+    transform: translate (-50%,0);
+    background-color: white;
+}
+
+.header {
+    /*position: fixed;*/
+    position: sticky;
+    z-index: 999;
+    top:0;
+    width: 100%;
+    padding: 20px;
+    background-color: darkcyan;
+    color: white;
+}
+/*.main {
+    transform: translate(80px);
+    position: relative;
+    top: 100px;
+    margin-top: 100px;
+}*/

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Eejrcicio de formulario</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="icon" href="./assets/images/favicon.png" disabled="disabled"/>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1 class="title"> Ejercicio</h1>
+    </header>
+    <main>
+      <form action="https://adalab-server-form-herouapp.com" method="post">
+
+        <div>
+        <labe for="nombre">Nombre:</label>
+        <input id="nombre" type="text" placeholder="P.ej: Maricarmen"/>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input id="email" name="email" type="email" placeholder="email@servidor.com" required="required"/>
+      </div>
+      <div>
+        <labe for="phone">Teléfono:</label>
+        <input id="phone" name="phone" type="tel" placeholder="XXX-XX-XX-XX"/>
+      </div>
+      <div>
+        <labe for="password">Contraseña:</label>
+        <input id="password" name="password" type="password" placeholder="Escribe tu contraseña"/>
+      </div>
+      <div>
+        <labe for="age">Edad:</label>
+        <input id="age" name="age" type="age" placeholder="P.ej: 18" min="0" max="99"/>
+      </div>
+      <div>
+        <label for="story">Cuéntame tu historia...</label>
+        <textarea id="story" name="story"></textarea>
+      </div>
+      
+
+      ><fieldset>
+        <legend>Datos de compra</legend>
+        <div>
+          <label for="month">Mes de nacimiento:</label>
+          <select id="month" name="month">
+            <option value="jamuary">Enero</option>
+            <option value="february">Febrero</option>
+            <option value="march">Marzo</option>
+            </select>
+        </div>
+        <div>
+          <p>Método de pago</p>
+          <input id="typecard" name="paymenttype" type="radio"
+          value="paymenttype-credictcard"/>
+          <label for="typecard">Tarjeta de Crédito</label>
+
+          <input id="typepaypal" type="radio"/> <label for="typepaypal">Paypal</label>
+
+          <input id="typetransfer" type="radio"/> <label for="typetransfer">Tranferencia</label>
+        </div>
+
+        <div>
+        <p>Facturación</p>
+
+        <input type="checkbox" name="invoicetype" id="ticket">
+        <label for="ticket">Enviar ticket</label>
+
+        <input type="checkbox" name="invoicetype" id="pdfinvoice">
+        <label for="pdfinvoice">Enviar factura por PDF</label>
+
+        <input type="checkbox" name="invoicetype" id="mailinvoice">
+        <label for="mailinvoice">Enviar factura por correo</label>
+        </div>
+
+        <div>
+          <label>Tarjeta de Crédito:</label>
+          <input id="credticard" type="text" placeholder="P.ej: XXXX-XXXX-XXXX-XXXX"/>
+        </div>
+  
+      </fieldset>
+
+      <input type="reset" value="Borrar todo">
+
+      <input type="submit" value="Mándalo ya!"/>
+      
+      </form>
+
+    </main>
+    </body>
+    </html>

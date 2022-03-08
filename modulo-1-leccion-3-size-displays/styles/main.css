@@ -2,7 +2,6 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size:  16px;
 }
-
 h1 {
     font-size: 14px;
     margin: 0;
@@ -16,18 +15,15 @@ li {
     padding: 15px;
     margin: 10px; 
 }
-
 .bebe {
     width: 200px;
-    border: lightpink solid 5px;
+    border: lightpink dashed 5px;
     padding: 20px;
     margin: 30px;
 }
-
 body {
     margin: o;
 }
-
 #menu {
     color: pink;
 }
@@ -37,7 +33,6 @@ body {
 }
 .link {
     border: solid 5px yellow;
-
 }
 .menu_header .link {
     border-color: red;

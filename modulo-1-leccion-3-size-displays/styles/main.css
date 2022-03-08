@@ -19,7 +19,9 @@ li {
 
 .bebe {
     width: 200px;
-    height: 200px;
+    border: lightpink solid 5px;
+    padding: 20px;
+    margin: 30px;
 }
 
 body {
@@ -42,4 +44,16 @@ body {
 }
 .menu_footer .link {
     border-color: red;
+}
+.section_we {
+    background-color: lightcoral;
+}
+.featured_link {
+    color:green;
+    width: 500px;
+    height: 200px;
+    margin-right: 200px;
+    margin-left: 200px;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }

@@ -1,0 +1,33 @@
+body{margin:0;}
+
+.container{
+  display: grid;
+  border: 5px solid black;
+  padding: 5px;
+  flex-direction: column;
+  grid-template-columns: 3fr 1fr 2fr 1fr 1fr;
+  grid-gap: 20px;
+  grid-template-rows: auto 300px 3em;
+
+}
+
+.box1 {
+  border: brown 5px solid;
+  background: yellow;
+}
+
+.box2 {
+  border: darkred 5px solid;
+  background: red;
+  color: white;
+}
+
+.box3 {
+  border: darkgreen 5px solid;
+  background: green;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.photo {
+  width: 100%;
+}

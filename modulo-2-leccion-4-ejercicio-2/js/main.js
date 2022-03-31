@@ -1,15 +1,9 @@
 "use strict";
 
-const button1 = document.querySelector(".js-button1");
-const button2 = document.querySelector(".js-button2");
+const input = document.querySelector(".js-input");
+const button = document.querySelector(".js-button");
 
 
-button1.addEventListener("click", () => {
-const selectedbutton = event.currentTarget;
-selectedbutton.classList.toggle("button");
-});
-
-button2.addEventListener("click", () => {
-    const selectedbutton = event.currentTarget;
-    selectedbutton.classList.toggle("button");
-    });
+button.addEventListener("click", () => {
+    console.log(`Hola ${input.value}`);
+  });

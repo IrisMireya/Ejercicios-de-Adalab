@@ -1,8 +1,8 @@
 "use strict";
-const list = document.querySelector ('.jslist');
+const list = document.querySelector ('.js-list');
 
 const name = 'dayana';
-let age = document.querySelector('.js-age').value
+let age = document.querySelector('.js-age').value;
 let ageValue = parseInt(age);
 let precio = 200.2;
 

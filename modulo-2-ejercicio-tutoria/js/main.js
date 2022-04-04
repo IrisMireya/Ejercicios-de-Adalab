@@ -3,27 +3,22 @@
 const name = document.querySelector('.js-name');
 const surname = document.querySelector('.js-surname');
 const btn = document.querySelector('.js-button');
+const result = document.querySelector('.js-result');
 
+//const name = "Lucía";
 // Sección de variables data
-
-const data = [{},{}];
-
-
-
 // fetch
-
-
 // Funciones 
-
-
 // Funciones handler -> Jefa
-
-
-
 // addEvenListerer
 
-btn.addEventListener("click", () => {
-    console.log("Alerta"); 
-    text.innerHTML= `Mi primer click, ¡ole yo y la madre que me parió!`
-  });
+btn.addEventListener("click", (event) => {
+    //console.log("Alerta"); 
+    if (name.value === "Iris" && surname.value === "Zuñel"){
+      result.innerHTML = "¡Hola Preciosa!";
+    }
+      else {( name.value !== "Iris")
+       result.innerHTML = "No reconocido";
+    }
+    });
 

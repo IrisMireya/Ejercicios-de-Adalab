@@ -5,7 +5,6 @@ const surname = document.querySelector('.js-surname');
 const btn = document.querySelector('.js-button');
 const result = document.querySelector('.js-result');
 
-//const name = "Lucía";
 // Sección de variables data
 // fetch
 // Funciones 

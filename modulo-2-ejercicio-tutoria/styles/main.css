@@ -22,3 +22,8 @@ button{
     display: flex;
     justify-content: center;
 }
+
+.result{
+    color: darkgreen;
+    font-weight: 600;
+}

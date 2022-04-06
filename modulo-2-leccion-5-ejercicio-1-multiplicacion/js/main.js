@@ -23,7 +23,8 @@ despedida.innerHTML += saludar('sara');
 paintConsole(20);
 paintConsole(15);
 
-//function multiplication(a,b) {
+//function multiplication(a,b) 
+{
     return a*b}//
 
 console.log(multiplication(2,2));
